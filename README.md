@@ -75,5 +75,5 @@ Para compilar e executar este projeto em um ambiente Windows, você precisará d
 
 Após a compilação bem-sucedida, um arquivo `clima.exe` será criado. Para executar o programa, simplesmente digite no terminal:
 
-```bash
-./clima.exe
+g++ main.cpp -o main.exe -I"C:/libs/curl/include" -L"C:/libs/curl/lib" -lcurl (PARA COMPILAR)
+./clima.exe (PARA INICIALIZAR O APLICATIVO)
